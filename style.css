@@ -24,16 +24,19 @@ h1, h2 {
 }
 
 #pantalla {
-    width: 100%;
+    width: calc(100% - 30px); /* Ajuste de ancho para dejar espacio a los lados */
     padding: 15px;
     font-size: 24px;
-    text-align: right;
+    text-align: right; /* Texto alineado a la derecha */
     border: none;
     border-radius: 10px;
-    margin: 10px;
+    margin-bottom: 10px;
     background-color: #000;
     color: #fff;
+    margin: 0 auto; /* Centrar horizontalmente */
+    display: block; /* Asegurar que se comporte como un bloque */
 }
+
 
 input[type="button"] {
     width: 70px;
